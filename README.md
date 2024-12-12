@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Elixir when using `Enum.reduce`.  The `Enum.reduce` function requires an explicit return value within its anonymous function. Failure to do so can lead to unexpected behavior and incorrect results. The `bug.ex` file contains the erroneous code, while `bugSolution.ex` provides the corrected implementation.
